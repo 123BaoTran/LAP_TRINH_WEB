@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="container">
+        <h5 id="noti"></h5>
+       <form id="check_Form">
+           <textarea name="txa" id="txta_inp" rows="7" class="inp" ></textarea>
+           <input type="text" name="txt" id="txt_inp" class="inp" >
+           <button type="button" class="btn" onclick="checkExist()">Check</button>
+       </form>
+
+    </div>
+
+    <script >
+        function checkExist() {
+            var txtaVal = document.getElementById('txta_inp').value;
+            var txtVal = document.getElementById("txt_inp").value;
+            if(txtaVal.trim().length == 0 && txtVal.trim().length == 0 ){
+                document.getElementById('noti').innerHTML = '';
+            }else if(txtaVal.trim().length == 0 || txtVal.trim().length == 0){
+                document.getElementById('noti').innerHTML = 'Vui lòng điền đầy đủ giá trị các ô !!';
+            }else{
+                document.getElementById('noti').innerHTML = 'Số lần "' + txtVal + '" xuất hiện trong "' + txtaVal + '" là: ' +  (txtaVal.split(txtVal).length-1);
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
