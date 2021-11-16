@@ -1,0 +1,206 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetice, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#page .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+#page #section_normal_1{
+    background: white;
+    border-bottom: 4px solid #909090 ;
+    height: 80px;
+
+}
+#page #section_normal_1 .column{
+    margin-top: 20px;
+}
+#page #section_normal_1 .alpha  {
+    width: 50%;
+    float: left;
+
+}
+#page #section_normal_1 .alpha .logo {
+    margin-top: 30px;/* dịch xuống */
+
+}
+
+/*
+gõ cùng 2 lệnh .alpha và .omege để chạy
+*/
+#page #section_normal_1 .omega{
+    width: 50%;
+    float: right;
+    text-align: right; /* nằm sát ra bên phải */
+    margin-top: 20px;
+}
+#page #section_normal_1 .omega .headtext_style{
+    float: right;
+    padding: 7px 20px;
+    height: 40px;
+
+}
+#page #section_normal_1  .omega .headtext_style .pix_text{
+    color: gray;
+    vertical-align: middle ;
+}
+
+#page #section_normal_1 .omega .social_button{
+    float: right;
+    padding: 0 5px;
+}
+/* thiết kế section_nomal_4_2 */
+#page #section_normal_4_2 {
+    background: #333333 ;
+    height: 670px;
+    padding: 5%;
+}
+#page #section_normal_4_2 .alpha{
+    width: 45%;
+    overflow:auto ;
+    float: left;
+
+}
+#page #section_normal_4_2 .alpha .img_style{
+    height: 100%; /* định dạng hình */
+    float: left;
+}
+#page #section_normal_4_2 .omega{
+    width: 45%;
+    float: right;
+}
+.bold_text{
+    font-weight: bold;
+}
+.big_text{
+    font-size: large;
+
+}
+.blue_text{
+    color: #2dbfe7;
+
+}
+.white_text{
+    color: white;
+}
+#page #section_normal_6 {
+    overflow: hidden;
+    border-bottom: 4px solid #AFB1B3;
+    background: #EFEEF1;
+    height: 390px;
+}
+#page #section_normal_6 .L1_style{
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 52px;
+    font-size: 31px;
+
+}
+#page #section_normal_6 .logo_style{
+    border-radius: 50%;
+    width: 80px;
+}
+#page #section_normal_6 .L2_style{
+    margin-top: 24px;
+    margin-bottom: 74px;
+    text-align: center;
+    font-size: 20px;
+    color: #AEABAE;
+}
+#page #section_normal_6 .alpha{
+    float: left;
+    width: 580px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 4px solid #AFB1B3;
+}
+
+#page #section_normal_6 .omega{
+    float: right;
+    width: 580px;
+    background: #fff;
+    border-radius: 4px;
+    border-bottom: 4px solid #AFB1B3;
+}
+
+#page #section_normal_6 .b_style{
+    display: inline-block;
+    padding: 23px;
+    background: #F9F4F8;
+}
+#page #section_normal_6 .txt_style{
+    float: right;
+    width: 78%;
+    padding: 20px;
+
+}
+#page #section_normal_6 .txt{
+    opacity: 0.7;
+    margin: 8px 0;
+    line-height: 1.4;
+    font-size: 18px;
+}
+#page #section_normal_6  .stars_span .pix_text{
+    color: #2EC0E7;
+    cursor: pointer;
+}
+#page #section_agency_5{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 18px;
+    color: #AFB1B3;
+}
+#page #section_agency_5 .f1_style{
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #608E6E;
+}
+#page #section_agency_5 .f2_style{
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 48px auto;
+    color: #AFB1B3;
+
+}
+#page #section_agency_5 .second_link{
+    margin-bottom: 60px;
+}
+#page #section_agency_5 .second_link .slow_fade{
+    border: 3px solid #608E6E;
+    font-size: 18px;
+    font-weight: 750;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #608E6E;
+}
+#page #section_agency_5 .pixfort_st{
+    color: #608E6E;
+    font-weight: bold;
+}
+#page #section_agency_5 .rights_st{
+    margin-bottom: 4px;
+}
+#page #section_agency_5 .pix_inline_block{
+    margin-top: 40px;
+}
+#page #section_agency_5 .social_btn_footer {
+    margin: 44px 2px;
+}
+
+
+
+
